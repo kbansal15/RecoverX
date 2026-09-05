@@ -5,7 +5,7 @@
 
 ---
 
-## 📌 Executive Summary
+##  Executive Summary
 
 Every year, merchants lose billions to payment failures, checkout abandonments, failed recurring subscriptions, and aging B2B invoices. **RecoverX** is an autonomous, policy-governed revenue recovery engine designed natively for Razorpay merchants.
 
@@ -19,7 +19,7 @@ Instead of generic blasting of payment links or blind retries, RecoverX executes
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ### Core Recovery Lifecycle
 
@@ -59,7 +59,7 @@ Instead of generic blasting of payment links or blind retries, RecoverX executes
 
 ---
 
-## 💡 Key Features & Recovery Vectors
+##  Key Features & Recovery Vectors
 
 ### 1. Payment Failure Recovery (B2C Checkout)
 - **12 Failure Root Causes:** Differentiates between technical transient errors (`GATEWAY_ERROR`, `NETWORK_TIMEOUT`), funds/mandate issues (`INSUFFICIENT_FUNDS`, `LIMIT_EXCEEDED`), customer friction (`OTP_TIMEOUT`, `AUTHENTICATION_FAILED`), and fatal card issues (`CARD_EXPIRED`, `CARD_BLOCKED`).
@@ -97,7 +97,7 @@ Instead of generic blasting of payment links or blind retries, RecoverX executes
 
 ---
 
-## 🛡️ Bounded Autonomy & Safety Architecture
+##  Bounded Autonomy & Safety Architecture
 
 RecoverX is built on strict **bounded autonomy** principles to ensure AI never harms customer relationships or acts beyond merchant authorization:
 
@@ -130,7 +130,7 @@ Every score is accompanied by human-readable reason codes (e.g., `HIGH_HISTORICA
 
 ---
 
-## 🔒 Honest Revenue Measurement
+##  Honest Revenue Measurement
 
 A core vulnerability in recovery systems is "hallucinated recovery" (claiming credit for payments that never happened). RecoverX guarantees **cryptographic honesty**:
 
@@ -139,7 +139,7 @@ A core vulnerability in recovery systems is "hallucinated recovery" (claiming cr
 
 ---
 
-## 💻 Tech Stack
+##  Tech Stack
 
 - **Backend:** Python 3.10+ / 3.14, FastAPI, SQLite with SQLAlchemy ORM, Pydantic v2
 - **Integrations:** Official `razorpay` Python SDK, `google-genai` Python SDK (Gemini 2.5 Flash)
@@ -149,7 +149,7 @@ A core vulnerability in recovery systems is "hallucinated recovery" (claiming cr
 
 ---
 
-## ⚡ Quick Start (Running on Any PC)
+##  Quick Start (Running on Any PC)
 
 ### 1. Prerequisites
 - **Python 3.10+** (Tested on Python 3.14)
@@ -192,7 +192,7 @@ Visit **[http://localhost:5173](http://localhost:5173)** in Chrome or any modern
 
 ---
 
-## 🌐 Endpoints & API Reference
+##  Endpoints & API Reference
 
 | Domain | Method | Endpoint | Description |
 |---|---|---|---|
@@ -225,7 +225,7 @@ Visit **[http://localhost:5173](http://localhost:5173)** in Chrome or any modern
 
 ---
 
-## 🧪 Testing & Verification
+##  Testing & Verification
 
 Run the complete backend test suite:
 
@@ -241,6 +241,6 @@ npm --prefix frontend run build
 
 ---
 
-## 📄 License
+##  License
 
 Developed for the **Razorpay AI Buildathon (Track 03: AI Revenue Recovery)**. Released under the Apache 2.0 License.
