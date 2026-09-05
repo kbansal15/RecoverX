@@ -112,7 +112,7 @@ RecoverX is built on strict **bounded autonomy** principles to ensure AI never h
 
 ---
 
-## 📐 Scoring Formula & Explainability
+##  Scoring Formula & Explainability
 
 Every recovery case receives a deterministic **Recovery Propensity Score** ($S \in [0.0, 1.0]$):
 
